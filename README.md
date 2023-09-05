@@ -1,4 +1,5 @@
-# KH2-RoxasRFScriptFix
+### KH2-RoxasRFScriptFix
+# This is an unofficial patch! I'm not a dev for KH Re:Fined nor TieuLink's Roxas!
 Restores the text for Re:Fined features, plus minor edits for TieuLink's Roxas mod. Place this ABOVE all of the Roxas mods, but BELOW any mods that change the Dodge Roll abilities' names.
 I had to trace a bitmap of Roxas's symbol for that icon I hope you're happy LMAO
 
