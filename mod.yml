@@ -1,5 +1,5 @@
-title: Re:Fined Script Restoration (Roxas ver.)
-description: Restores the text for Re:Fined features, plus minor edits for TieuLink's Roxas mod. Place this ABOVE all of the Roxas mods, but BELOW any mods that change the Dodge Roll abilities' names.
+title: Re:Fined Script Fix (Roxas ver.)
+description: Switches the names of Sora and Roxas in Re:Fined's scripts, for use with TieuLink's Roxas mod.
 assets:
 - name: msg/us/sys.bar
   method: binarc
@@ -50,23 +50,3 @@ assets:
     source:
     - name: msg/sys.yml
       language: gr
-
-- name: msg/us/ca.bar
-  multi:
-    - name: msg/fr/ca.bar
-    - name: msg/gr/ca.bar
-    - name: msg/it/ca.bar
-    - name: msg/sp/ca.bar
-  method: binarc
-  source:
-  - name: ca
-    type: list
-    method: kh2msg
-    source:
-      - name: msg/ca.yml
-        language: en
-
-- name: libretto-ca.bar
-  method: copy
-  source:
-  - name: libretto/libretto-ca.bar
